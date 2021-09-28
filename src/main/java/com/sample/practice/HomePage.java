@@ -12,6 +12,8 @@ public class HomePage {
     }
 
 
+
+
     public void close() {
         Browser.close();
     }
