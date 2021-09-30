@@ -12,18 +12,15 @@ public class Browser {
     static WebDriver driver = new ChromeDriver();
 
 
-    public static void goTo(String url) {
-
+    public static void open(String url) {
         driver.get(url);
     }
 
     public static String getTitle() {
-
         return driver.getTitle();
     }
 
     public static void close() {
-
         driver.close();
     }
 

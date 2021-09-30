@@ -1,7 +1,6 @@
 package com.sample.practice;
 
-public class HomePage {
-
+public class DownloadPage {
 
     public void open(String url) {
         Browser.open(url);
@@ -10,9 +9,6 @@ public class HomePage {
     public String getTitle() {
         return Browser.getTitle();
     }
-
-
-
 
     public void close() {
         Browser.close();
